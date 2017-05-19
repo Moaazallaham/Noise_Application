@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_Monthly_Overview"
+        android:orderInCategory="90"
+        android:title="Monthly Overview"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_Yearly_Overview"
+        android:orderInCategory="91"
+        android:title="Yearly Overview"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_Daily_Overview"
+        android:orderInCategory="92"
+        android:title="Daily Overview"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_homepage"
+        android:orderInCategory="99"
+        android:title="Frontpage"
+        android:icon="@drawable/home"
+        app:showAsAction="always"/>
+
+</menu>

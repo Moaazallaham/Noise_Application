@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mike.noise_application.MainPage">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="101"
+        android:title="Info"
+        android:icon="@drawable/info"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_homepage"
+        android:orderInCategory="99"
+        android:title="Frontpage"
+        android:icon="@drawable/home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_data"
+        android:orderInCategory="98"
+        android:title="Data"
+        android:icon="@drawable/data"
+        app:showAsAction="never"/>
+
+
+</menu>
